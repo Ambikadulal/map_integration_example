@@ -1,16 +1,33 @@
 # map_integration_example
 
-A new Flutter project.
+This is a simple Flutter application that demonstrates how to integrate Google Maps using the google_maps_flutter package. The map displays markers based on predefined locations.
 
-## Getting Started
+## Features
+- Displays a Google Map with markers.
+- Initial camera position set to the first location in the list.
+- Zoom controls and gesture handling enabled.
+- Getting Started
+- Prerequisites
+- Flutter SDK installed. You can download it from Flutter's official website.
+- A Google Maps API Key. Obtain it from the Google Cloud Console.
+- Setup
+  
+  ## Clone the repository:
+```git clone https://github.com/yourusername/google_maps_demo.git
+cd google_maps_demo
+```
+## Install dependencies:
 
-This project is a starting point for a Flutter application.
+```flutter pub get```
 
-A few resources to get you started if this is your first Flutter project:
+Configure Android and iOS:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Android:
+```Update android/app/src/main/AndroidManifest.xml with your API key.```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## iOS:
+```Update ios/Runner/Info.plist with the required permissions and API key.```
+
+## Run The App
+```flutter run```
